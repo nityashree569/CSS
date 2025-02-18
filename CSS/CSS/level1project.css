@@ -1,0 +1,20 @@
+/*this is the comment*/
+h1{
+    color: red;
+}
+#heading{
+    color: aqua;
+}
+#new{
+    color: chocolate;
+}
+p{
+    color: hotpink;
+}
+.class{
+    color: cornflowerblue;
+}
+/*group selector*/
+#first,#Second{
+    color:indigo;
+}

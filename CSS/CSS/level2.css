@@ -1,0 +1,43 @@
+h1{
+    color: red;
+    background-color: #fa20fa;
+}
+.nthg{
+    color: chocolate;
+    background-color:rgb(45, 68,123);
+}
+
+h2{
+    color: rgba(255,0, 0, 0.0);
+}
+h3{
+    color: rgba(255, 0, 0, 0.7);
+}
+h4{
+    color: rgba(255, 0, 0, 1.0);
+}
+.box{
+    height: 400px;
+    width: 400px;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+#box1{
+    color: pink;
+}
+.div{
+    height: 80px;
+    width: 80px;
+    background-color: rgb(165, 165, 228);
+}
+#box2{
+    color: rgb(156, 2, 2);
+    visibility: visible;
+}
+   
+#box3{
+    color: black;
+    visibility: hidden;
+}
+

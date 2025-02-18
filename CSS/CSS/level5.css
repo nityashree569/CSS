@@ -1,0 +1,71 @@
+*{
+    font-size: 20px;
+}.di{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+    margin: 5px;
+    display: block;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+    margin: 5px;
+    display: inline;
+}
+.divv{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    
+    margin: 5px;
+    display: inline-block;
+}
+#div5{
+    /*it will simple remove the space storage everything from the webpage*/
+    display: none;
+}
+#first{
+    background-color: red;
+    height:200px;
+    width:200px;
+    font-size: 0.8rem;
+}
+#second{
+    background-color: blue;
+    height: 30%;
+    width: 50%;
+    font-size: 2.8  em;
+}
+#new1{
+    height: 50vh;
+    width: 50vw;
+    background-color: blueviolet;
+}
+.new{
+
+    height: 100px;
+    width:100px;
+    background-color: yellowgreen;
+    margin: 5px;
+}
+#new2{
+    position: static;
+}
+#new3{
+    position: relative;
+    top:320px;
+    left: 50px;
+}
+#new4{
+    position: absolute;
+    top: 1200px;
+    left: 200px;
+}
+#new5{
+    position:fixed;
+    right: 20px;
+}

@@ -1,0 +1,44 @@
+nav a{
+    text-decoration: none;
+    margin :150px;
+    font-size: 20px;
+}
+nav{
+    background-color: greenyellow;
+    padding:6px;
+}
+#div1{
+    height: 70px;
+    width:70px;
+    border-radius: 50%;
+    background-color: green;
+    
+}
+.divv{
+    height: 100px;
+    width: 100px;
+    background-color: aqua ;
+    display: inline-block;
+    margin: 137px;
+}
+#div3{
+    z-index: 2;
+}
+#div2{
+    z-index: 1;
+}
+#div4{
+    z-index:3;
+}
+#div5{
+    background-color: aqua;
+    height: 100px;
+    width:100px;
+    position: fixed;
+    right:170px;
+}
+footer{
+    position: fixed;
+    bottom: 30px;
+    background-color: bisque;
+}

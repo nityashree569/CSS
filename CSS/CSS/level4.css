@@ -1,0 +1,27 @@
+*{
+    
+    padding: 0;
+
+}
+#pad
+{
+    height: 60px;
+    width: 60px;
+    background-color: brown;
+    padding: 5px 10px 15px 20px;
+    margin: 5px 10px 15px 20px;
+    border: 2px dashed gray;
+    border-radius: 12px;
+    box-sizing: content-box;
+}
+#pad1{
+    
+    height: 60px;
+    width: 60px;
+    background-color: brown;
+    padding: 5px 10px 15px 20px;
+    margin: 50px 10px 5px 20px;
+    border: 3px dotted black;
+    border-radius: 10px 15px 20px 25px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,69 @@
+.button{
+    height: 50px;
+    width: 100px;
+    background-color: bisque;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 1s;
+}
+.button:hover{
+    background-color: aqua;
+    transform: translate(50px,50px);
+} 
+.button:active{
+    height: 100px;
+    width:80px;
+    background-color:violet ;
+}
+#new{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+    padding: 3px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-timing-function:ease-in-out;
+    transition-delay: 1s;
+}
+#new:hover{
+    background-color: yellowgreen;
+    height: 60px;
+    width: 60px;
+    transform: scaley(2);
+
+}
+#new1{
+    height:100px;
+    width: 100px;
+    background-color: tomato;
+    transform: rotate(120deg);
+    
+}
+#new1:hover{
+    transform: skew(45deg);
+}
+#animal{
+    height:200px;
+    width: 200px;
+    background-color: goldenrod;
+    
+    position: relative;
+    
+    left: 10px;
+
+    animation-name: animation;
+    animation-duration: 7s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+}
+@keyframes animation{
+    from{
+        left: 10px;
+    }
+    to{
+        left: 600px;
+    }
+}

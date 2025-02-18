@@ -1,0 +1,36 @@
+.Box{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    
+    
+}
+#Box1{
+    text-align: center;
+    text-decoration: overline;
+    text-transform: lowercase;
+}
+#Box2{
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-style:wavy ;
+    text-transform: uppercase;
+}
+#Box3{
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: capitalize;
+}
+a{
+    text-transform: uppercase;
+}
+#new2{
+ line-height: 30px;
+ font-size:18px;
+ font-weight: 400;
+}
+#new1{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}

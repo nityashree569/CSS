@@ -1,0 +1,22 @@
+/*h1{
+    color:cadetblue;
+}
+p{
+    color:brown
+}*/
+/*universal selector*/
+*{
+    color:black
+}
+/*id selector*/
+#present{
+    color: blueviolet;
+}
+/*class selector*/
+.new{
+    color: chartreuse;
+}
+/*Descendant Selector*/
+#newone p{
+    color:yellowgreen
+}

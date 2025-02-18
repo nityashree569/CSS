@@ -1,0 +1,28 @@
+#progree_container{
+    height: 20px;
+    width: 90%;
+    background-color: rgb(170, 191, 209);
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    left: 63px;
+}
+#progrees_bar{
+    height: 20px;
+    width:30%;
+    background-color:tan;
+    border-radius: 15px;
+    animation: animat;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    
+}
+@keyframes animat
+{ 0%{width:0%}
+    25%{width: 25%}
+    50%{width: 75%}
+    75%{width: 50%}
+    100%{width: 100%}
+
+    
+}
